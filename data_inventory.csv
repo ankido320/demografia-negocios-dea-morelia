@@ -1,7 +1,0 @@
-﻿dataset,status,notes
-DENUE 2026 sector 72 parte 1,available,denue_00_72_1_csv.zip
-DENUE 2026 sector 72 parte 2,available,denue_00_72_2_csv.zip
-DENUE históricos 2015-2025,needed,Requeridos para supervivencia longitudinal
-DENUE abarrotes histórico,needed,Requerido para comparación restaurantes vs abarrotes
-Censos Económicos agregados,needed/optional,Para calibración sectorial
-Encuesta CANACO,future,Para inputs/outputs DEA a nivel negocio
