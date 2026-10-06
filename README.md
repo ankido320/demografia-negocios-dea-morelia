@@ -33,11 +33,21 @@ El proyecto se desarrolla en cinco bloques:
 
 ## Estado actual
 
-Ya se dispone de DENUE 2026 para SCIAN 722511 en Morelia (750 establecimientos). Para calcular supervivencia real se necesitan varias ediciones históricas de DENUE o un panel equivalente que permita seguir establecimientos entre años.
+Ya se localizaron y verificaron microdatos DENUE de Morelia para **2018, 2019, 2023 y 2024**, y se dispone además del corte **2026** para el sector 72. Con estos archivos ya se realizó un piloto de vinculación para las clases **SCIAN 722511–722519**.
 
-## Datos necesarios
+Resultados preliminares del piloto:
 
-- DENUE histórico: identificador/CLEE, SCIAN, tamaño, localización, fecha de alta y presencia por edición.
+- Los intervalos **2018→2019** y **2023→2024** presentan rupturas administrativas fuertes y no deben interpretarse de manera directa como mortalidad empresarial.
+- El intervalo **2024→2026** presenta una continuidad observada alta y es, por ahora, el tramo más limpio para estudiar salidas y supervivencia.
+- Se detectó una señal relevante en el estrato de **51–100 trabajadores**, que debe auditarse caso por caso antes de clasificar sus salidas como muertes definitivas.
+- La siguiente fase consiste en auditar salidas, cambios de ID, cambios de SCIAN, mudanzas y reapariciones, y después ampliar el análisis longitudinal.
+
+## Datos disponibles y pendientes
+
+- DENUE micro Morelia: 2018, 2019, 2023 y 2024.
+- DENUE sector 72: 2026.
+- Panel histórico agregado y homologado: disponible en el repositorio fuente de reconstrucción DENUE 2010–2026.
+- DENUE de abarrotes (SCIAN 461110): pendiente de incorporar con la misma lógica de vinculación para realizar la comparación restaurantes vs abarrotes.
 - Censos Económicos: variables agregadas y, si se obtiene acceso autorizado, tabulados especiales o microdatos protegidos para calibrar tecnologías productivas.
 - Levantamiento propio/CANACO: personal exacto, costos, capacidad, ventas/clientes, calidad, adopción digital y otras variables necesarias para DEA a nivel establecimiento.
 
