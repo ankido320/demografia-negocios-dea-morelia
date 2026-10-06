@@ -39,8 +39,27 @@ Resultados preliminares del piloto:
 
 - Los intervalos **2018→2019** y **2023→2024** presentan rupturas administrativas fuertes y no deben interpretarse de manera directa como mortalidad empresarial.
 - El intervalo **2024→2026** presenta una continuidad observada alta y es, por ahora, el tramo más limpio para estudiar salidas y supervivencia.
-- Se detectó una señal relevante en el estrato de **51–100 trabajadores**, que debe auditarse caso por caso antes de clasificar sus salidas como muertes definitivas.
-- La siguiente fase consiste en auditar salidas, cambios de ID, cambios de SCIAN, mudanzas y reapariciones, y después ampliar el análisis longitudinal.
+- Para SCIAN 722511 se identificaron grupos tecnológicos preliminares y siete grupos con homogeneidad y tamaño suficientes para un primer DEA.
+- La especificación DEA base propuesta utiliza 3 inputs (personal ETC, gasto mensual en insumos y capacidad instalada) y 2 outputs (ventas mensuales y clientes/cubiertos).
+- El siguiente paso es validar menú/tipo de servicio, levantar inputs/outputs a nivel establecimiento y conectar eficiencia, slacks y supervivencia.
+
+## Grupos homogéneos preliminares para DEA
+
+Se documentaron siete grupos aptos de manera preliminar: cocina asiática 0–5 (84), fonda/comida corrida 0–5 (57), restaurante-bar 0–5 (42), restaurante-bar 6–10 (25), cocina mexicana/regional 0–5 (24), cocina asiática 6–10 (23) y restaurante-bar 11–30 (16). Los establecimientos de especialidad no identificada requieren reclasificación antes de estimar una frontera DEA.
+
+Véase [`docs/04_grupos_homogeneos_dea.md`](docs/04_grupos_homogeneos_dea.md) y [`config/dea_groups_722511.csv`](config/dea_groups_722511.csv).
+
+## Inputs, outputs y fuentes
+
+DENUE permite identificar establecimientos, SCIAN, ubicación, AGEB y estrato de personal, pero no proporciona ventas, costos, capacidad ni personal exacto. Para el DEA a nivel establecimiento se propone un levantamiento propio, idealmente con CANACO Morelia, complementado con Censos Económicos como referencia sectorial agregada.
+
+Véase [`docs/05_fuentes_inputs_outputs_dea.md`](docs/05_fuentes_inputs_outputs_dea.md) y [`config/dea_variables_sources.csv`](config/dea_variables_sources.csv).
+
+## Mortalidad y determinantes de supervivencia
+
+El cruce preliminar 2024→2026 indica diferencias de salida observada por grupo tecnológico y tamaño. Estas tasas no se interpretan todavía como mortalidad empresarial definitiva hasta auditar cambios de ID, cambios de SCIAN, mudanzas y reapariciones. El marco teórico incorpora liability of newness, liability of smallness, aprendizaje empresarial, Resource-Based View, capacidades dinámicas, restricciones financieras, economías de escala, localización y diferenciación competitiva.
+
+Véase [`docs/06_mortalidad_determinantes_supervivencia.md`](docs/06_mortalidad_determinantes_supervivencia.md).
 
 ## Datos disponibles y pendientes
 
