@@ -1,5 +1,7 @@
 # Demografía empresarial y DEA en Morelia
 
+[Español](README_ES.md) | [English](README_EN.md) | [Prompt Maestro ES](docs/PROMPT_MAESTRO_ES.md) | [Master Prompt EN](docs/MASTER_PROMPT_EN.md)
+
 ## Objetivo general
 
 Construir un sistema reproducible para estudiar la demografía de los negocios en Morelia y, a partir de grupos de establecimientos suficientemente homogéneos, estimar modelos DEA, identificar ineficiencias y slacks, y diseñar rutas de intervención para negocios reales en colaboración con CANACO Morelia.
@@ -46,3 +48,10 @@ Los datos individuales nominativos de los Censos Económicos están protegidos p
 ## Autoría y uso de IA
 
 La concepción del proyecto corresponde a Antonio Kido Cruz. La documentación del origen de la idea, papel de la literatura previa y contribución específica de ChatGPT se encuentra en [`docs/00_autoria_origen_y_contribuciones.md`](docs/00_autoria_origen_y_contribuciones.md).
+
+## Navegación bilingüe y gobernanza del proyecto
+
+- [`README_ES.md`](README_ES.md): descripción del proyecto en español.
+- [`README_EN.md`](README_EN.md): project description in English.
+- [`docs/PROMPT_MAESTRO_ES.md`](docs/PROMPT_MAESTRO_ES.md): reglas de continuidad, trazabilidad, autoría, GitHub/Drive, reproducibilidad y control de errores en español.
+- [`docs/MASTER_PROMPT_EN.md`](docs/MASTER_PROMPT_EN.md): equivalent project-governance rules in English.
