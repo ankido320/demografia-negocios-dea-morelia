@@ -1,0 +1,5 @@
+data_raw/**
+!data_raw/.gitkeep
+*.Rhistory
+.Rproj.user/
+__pycache__/
