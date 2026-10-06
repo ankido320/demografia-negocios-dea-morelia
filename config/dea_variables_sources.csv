@@ -1,0 +1,14 @@
+variable,type,ideal_level,source,public_nominative,use
+Personal ocupado exacto / ETC,Input,Establecimiento,Encuesta directa / CANACO / registros del negocio,No; DENUE sólo da estrato,Input principal
+Gasto mensual en alimentos e insumos,Input,Establecimiento,Encuesta directa / contabilidad,No,Input principal
+Capacidad instalada (asientos/mesas),Input,Establecimiento,Encuesta / visita,No,Input principal
+Horas de operación mensuales,Input alternativo,Establecimiento,Encuesta / horario verificado,Parcial,Robustez
+Área del local (m2),Input alternativo,Establecimiento,Encuesta / documentación del negocio,No homogénea,Robustez
+Ventas mensuales,Output,Establecimiento,Encuesta confidencial / registros contables,No nominativa,Output principal
+Clientes o cubiertos mensuales,Output,Establecimiento,POS / comandas / encuesta,No,Output principal
+Comidas o platillos servidos,Output alternativo,Establecimiento,POS / comandas / encuesta,No,Especialmente útil en fonda/comida corrida
+Ticket promedio,Diagnóstico,Establecimiento,Ventas / tickets o clientes,No,Diagnóstico; evitar redundancia con ventas
+Ubicación / AGEB / estrato de personal,Contexto,Establecimiento,DENUE,Sí,Estratificación y controles
+Variables económicas sectoriales,Benchmark,Municipio/actividad,Censos Económicos 2024 / SAIC,Sí agregadas,Calibrar rangos y justificar variables
+Cadena / independiente,Contexto,Establecimiento,Encuesta / validación nominal,Parcial,Homogeneidad y segunda etapa
+Antigüedad validada,Contexto,Establecimiento,Panel longitudinal DENUE / encuesta,No directa,Supervivencia
