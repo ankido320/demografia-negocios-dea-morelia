@@ -1,0 +1,12 @@
+group_id,technology,scale,n,status,model,inputs,outputs
+ASIATICA__MICRO_0_5,Cocina asiática,0-5,84,APTO PRELIMINAR,BCC/VRS orientado a inputs; CCR contraste,Personal ETC; gasto insumos; capacidad instalada,Ventas mensuales; clientes/cubiertos
+FONDA_COMIDA_CORRIDA__MICRO_0_5,Fonda/comida corrida/cocina económica,0-5,57,APTO PRELIMINAR,BCC/VRS orientado a inputs; CCR contraste,Personal ETC; gasto insumos; capacidad instalada,Ventas mensuales; clientes/cubiertos
+BAR_RESTAURANTE__MICRO_0_5,Restaurante-bar/cantina/pub,0-5,42,APTO PRELIMINAR,BCC/VRS orientado a inputs; CCR contraste,Personal ETC; gasto insumos; capacidad instalada,Ventas mensuales; clientes/cubiertos
+BAR_RESTAURANTE__PEQUENA_6_10,Restaurante-bar/cantina/pub,6-10,25,APTO PRELIMINAR,BCC/VRS orientado a inputs; CCR contraste,Personal ETC; gasto insumos; capacidad instalada,Ventas mensuales; clientes/cubiertos
+MEXICANA_REGIONAL__MICRO_0_5,Cocina mexicana/regional,0-5,24,APTO PRELIMINAR,BCC/VRS orientado a inputs; CCR contraste,Personal ETC; gasto insumos; capacidad instalada,Ventas mensuales; clientes/cubiertos
+ASIATICA__PEQUENA_6_10,Cocina asiática,6-10,23,APTO PRELIMINAR,BCC/VRS orientado a inputs; CCR contraste,Personal ETC; gasto insumos; capacidad instalada,Ventas mensuales; clientes/cubiertos
+BAR_RESTAURANTE__MEDIANA_11_30,Restaurante-bar/cantina/pub,11-30,16,APTO PRELIMINAR,BCC/VRS orientado a inputs; CCR contraste,Personal ETC; gasto insumos; capacidad instalada,Ventas mensuales; clientes/cubiertos
+GENERAL_NO_IDENTIFICADA__MICRO_0_5,Servicio completo especialidad no identificada,0-5,222,VALIDAR ANTES DE DEA,No estimar todavía,Revisar menú/tipo de servicio,Revisar outputs comparables
+GENERAL_NO_IDENTIFICADA__PEQUENA_6_10,Servicio completo especialidad no identificada,6-10,83,VALIDAR ANTES DE DEA,No estimar todavía,Revisar menú/tipo de servicio,Revisar outputs comparables
+GENERAL_NO_IDENTIFICADA__MEDIANA_11_30,Servicio completo especialidad no identificada,11-30,67,VALIDAR ANTES DE DEA,No estimar todavía,Revisar menú/tipo de servicio,Revisar outputs comparables
+GENERAL_NO_IDENTIFICADA__GRANDE_31_MAS,Servicio completo especialidad no identificada,31+,18,VALIDAR ANTES DE DEA,No estimar todavía,Revisar menú/tipo de servicio,Revisar outputs comparables
